@@ -1,1 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro:wght@200;400;600&display=swap');
 
+body{
+    margin: 0 0 0 0;
+}
+header{
+    background-color: #58BAAA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header *{
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+header button{
+    background-color: #3C6E71;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+main{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+main > *{
+    padding: 0 30px;
+}
+
+main h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 2em;
+}
+
+main .image_with_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px
+} 
+
+main .image_with_text img{
+    width: 100%;
+    height: fit-content;
+    margin: auto 0 auto;
+    min-width: 300px;
+    padding: 15px 15px;
+    flex: 1;
+}
+
+main .image_with_text p{
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;     
+    margin: auto 0 auto 0;
+    min-width: 300px;
+    flex: 3;
+}
