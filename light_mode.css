@@ -65,7 +65,8 @@ main .image_with_text{
 
 main .image_with_text img{
     width: 100%;
-    height: fit-content;
+    height: auto;
+    aspect-ratio: 3 / 4;
     margin: auto 0 auto;
     min-width: 300px;
     padding: 15px 15px;
@@ -74,7 +75,6 @@ main .image_with_text img{
 
 main .image_with_text p{
     width: 100%;
-    max-width: 100%;
     height: fit-content;     
     margin: auto 0 auto 0;
     min-width: 300px;
