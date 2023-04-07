@@ -143,7 +143,7 @@ main table tr td img{
     padding: 15px;
 }
 
-main table tr td button{
+main table tr td a button{
     display: block;
     background-color: #bebaa9;
     padding: 10px;
