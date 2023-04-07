@@ -52,6 +52,7 @@ main{
 main > *{
     padding: 0 30px;
     margin: 30px auto 30px auto;
+    box-sizing: border-box;
 }
 
 main *{
@@ -133,7 +134,7 @@ main table tr td{
 
 main table tr td > *{
     margin: 0 auto;
-    display: block;
+    display: block; 
 }
 
 main table tr td img{
