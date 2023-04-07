@@ -1,1 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Readex+Pro:wght@200;400;600&display=swap');
 
+body{
+    margin: 0 0 0 0;
+    background-color: #292c37;
+}
+
+header{
+    background-color: #327665;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header *{
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+header button{
+    background-color: #5C797E;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+main{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+main > *{
+    padding: 0 15px;
+    margin: 15px auto 15px auto;
+    box-sizing: border-box;
+}
+
+main *{
+    color: white;
+}
+
+main h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 2em;
+    color: white;
+    background-color: #82AC9E;
+    padding: 30px 30px;
+    margin-top: 0;
+}
+main h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+main h4{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1em;
+    margin-top: 0;
+}
+main img, main picture, main video{
+   max-width: 1200px;
+   width: 80%;
+   height: auto;
+   display: block;
+}
+
+main .image_with_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+} 
+
+main .image_with_text img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto 0 auto 0;
+    min-width: 300px;
+    padding: 15px 15px;
+    flex: 2;
+}
+
+main .image_with_text div{
+    width: 100%;
+    height: auto;     
+    margin: auto 0 auto 0;
+    min-width: 300px;
+    flex: 3;
+}
+
+main ul, main ol{
+    padding: 0px 30px 0px 45px
+}
+
+main table{
+    width: 100%;
+    max-width: 1200px;
+}
+
+main table tr{
+    table-layout: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main table tr td{
+    width: 100%;
+    text-align: center;
+    min-width: 300px;
+    margin: 0 10px;
+    flex: 1;
+}
+
+main table tr td > *{
+    margin: 0 auto;
+    display: block; 
+}
+
+main table tr td img{
+    width: 100%;
+    flex: 1;
+    padding: 15px 0;
+}
+
+main table tr td a button{
+    display: block;
+    background-color: #5C797E;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin: 15px auto;
+}
+main table tr td a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #327665;
+    padding: 30px;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+footer > *{
+    margin: 30px auto 0 auto;
+}
+footer button{
+    display: block;
+    background-color: #5C797E;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+footer ul{
+    display: flex;
+    margin: 30px auto;
+    max-width: 300px;
+    padding: 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+footer a{
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+footer .copyright{
+    font-weight: 300;
+    margin: 30px auto 0 auto;
+}
