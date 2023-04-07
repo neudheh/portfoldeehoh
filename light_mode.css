@@ -98,12 +98,12 @@ main .image_with_text img{
     margin: auto 0 auto 0;
     min-width: 300px;
     padding: 15px 15px;
-    flex: 1;
+    flex: 2;
 }
 
-main .image_with_text p{
+main .image_with_text div{
     width: 100%;
-    height: fit-content;     
+    height: auto;     
     margin: auto 0 auto 0;
     min-width: 300px;
     flex: 3;
@@ -183,10 +183,19 @@ footer button{
     font-weight: 600;
     font-size: 1em;
 }
+footer ul{
+    display: flex;
+    margin: 30px auto;
+    max-width: 300px;
+    padding: 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
 footer a{
     display: block;
     width: fit-content;
     text-decoration: none;
+    color: rgb(188, 188, 188);
 }
 footer .copyright{
     font-weight: 300;
