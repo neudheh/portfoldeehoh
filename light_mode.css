@@ -51,7 +51,7 @@ main{
 
 main > *{
     padding: 0 30px;
-    margin: 30px auto 30px auto;
+    margin: 15px auto 15px auto;
     box-sizing: border-box;
 }
 
@@ -115,6 +115,7 @@ main ul, main ol{
 
 main table{
     width: 100%;
+    max-width: 1200;
 }
 
 main table tr{
