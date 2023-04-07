@@ -129,7 +129,7 @@ main table tr td{
     width: 100%;
     text-align: center;
     min-width: 300px;
-    padding: 15px;
+    margin: 0 10px;
     flex: 1;
 }
 
@@ -140,8 +140,8 @@ main table tr td > *{
 
 main table tr td img{
     width: 100%;
-    text-align: center;
     flex: 1;
+    padding: 15px 0;
 }
 
 main table tr td a button{
