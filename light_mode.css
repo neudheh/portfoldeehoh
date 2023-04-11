@@ -191,7 +191,7 @@ footer ul{
     justify-content: space-between;
     list-style-type: none;
 }
-footer a{
+footer form{
     display: block;
     width: fit-content;
     text-decoration: none;
