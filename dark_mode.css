@@ -146,7 +146,7 @@ main table tr td img{
     padding: 15px 0;
 }
 
-main table tr td a button{
+main table tr td form button{
     display: block;
     background-color: #5C797E;
     padding: 10px;
@@ -192,7 +192,7 @@ footer ul{
     justify-content: space-between;
     list-style-type: none;
 }
-footer form button{
+footer form button, footer a{
     display: block;
     width: fit-content;
     text-decoration: none;
