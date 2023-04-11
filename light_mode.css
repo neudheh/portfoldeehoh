@@ -40,6 +40,7 @@ header button{
     border: none;
     border-radius: 50px;
 }
+
 main{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
@@ -67,16 +68,19 @@ main h2{
     padding: 30px 30px;
     margin-top: 0;
 }
+
 main h3{
     font-family: 'Readex Pro', sans-serif;
     font-size: 1.5em;
     margin-top: 0;
 }
+
 main h4{
     font-family: 'Readex Pro', sans-serif;
     font-size: 1em;
     margin-top: 0;
 }
+
 main img, main picture, main video{
    max-width: 1200px;
    width: 80%;
@@ -156,10 +160,10 @@ main table tr td form button{
     font-size: 1em;
     margin: 15px auto;
 }
+
 main table tr td a{
     text-decoration: none;
 }
-
 
 footer{
     background-color: #5f6656;
@@ -169,9 +173,11 @@ footer{
     font-weight: 600;
     text-align: center;
 }
+
 footer > *{
     margin: 30px auto 0 auto;
 }
+
 footer button{
     display: block;
     background-color: #6A5E4E;
@@ -183,6 +189,7 @@ footer button{
     font-weight: 600;
     font-size: 1em;
 }
+
 footer ul{
     display: flex;
     margin: 30px auto;
@@ -191,13 +198,18 @@ footer ul{
     justify-content: space-between;
     list-style-type: none;
 }
-footer form button, footer a{
-    display: block;
-    width: fit-content;
+
+footer a{
     text-decoration: none;
     color: rgb(188, 188, 188);
+}
+
+footer form button{
+    display: block;
+    color: white;
     margin: 0 auto;
 }
+
 footer .copyright{
     font-weight: 300;
     margin: 30px auto 0 auto;
