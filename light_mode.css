@@ -196,6 +196,7 @@ footer form button{
     width: fit-content;
     text-decoration: none;
     color: rgb(188, 188, 188);
+    margin: 0 auto;
 }
 footer .copyright{
     font-weight: 300;
